@@ -1,0 +1,17 @@
+
+//Boton para descargar los datos//
+
+.btn-download { 
+    background-color: #1c6d9c !important;
+  }
+//Controlar el color cuando pasas el raton//
+.btn-download:hover{
+    background-color: #1c6d9c !important;
+}
+
+//Centrado los botones//
+
+#chartSelectionDownload, #tableSelectionDownload {
+  text-align: center;
+  display: block;
+}

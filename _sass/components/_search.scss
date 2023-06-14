@@ -1,0 +1,19 @@
+#search {
+    padding-bottom: 0px;
+    padding-right: 10px;
+    .input-group {
+        flex-wrap: nowrap;
+        
+    }
+    input {
+        width: 33ch;
+        border: 1.25px solid black;
+        background-color: #002569;
+    
+    }
+    button {
+        color: white;
+        background-color: #002569;
+        border: 1.25px solid #002569;
+    }
+}

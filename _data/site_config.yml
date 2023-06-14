@@ -22,8 +22,8 @@ breadcrumbs:
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: 
+  adjective: 
 create_goals:
   previous_next_links: false
   goal_content_heading: ''
@@ -64,50 +64,50 @@ empty_metadata_placeholder_sources: ''
 environment: staging
 footer_language_toggle: none
 footer_menu:
-  - path: /contact-us
-    translation_key: menu.contact_us
-  - path: 'https://twitter.com/MyTwitterAccount'
-    translation_key: general.twitter
-  - path: 'https://facebook.com/MyFacebookAccount'
-    translation_key: general.facebook
-  - path: /about/cookies-and-privacy/
-    translation_key: menu.cookies
+  # - path: /contact-us
+  #   translation_key: menu.contact_us
+  # - path: "https://twitter.com/MyTwitterAccount"
+  #   translation_key: general.twitter
+  # - path: "https://facebook.com/MyFacebookAccount"
+  #   translation_key: general.facebook
+  # - path: /about/cookies-and-privacy/
+  #   translation_key: menu.cookies
 frontpage_cards:
-  - title: frontpage.download_all
-    content: ''
-    include: components/download-all-data.html
-    button_label: ''
-    button_link: ''
-    rule_color: ''
-  - title: Lorem ipsum
-    content: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
-      cursus est sed dapibus.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
-  - title: Nam vestibulum
-    content: |
-      Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
-      interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
-    include: ''
-    button_label: Read more
-    button_link: 'https://example.com'
-    rule_color: ''
+  # - title: frontpage.download_all
+  #   content: ''
+  #   include: components/download-all-data.html
+  #   button_label: ''
+  #   button_link: ''
+  #   rule_color: ''
+  # - title: Lorem ipsum
+  #   content: |
+  #     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi mollis
+  #     cursus est sed dapibus.
+  #   include: ''
+  #   button_label: Read more
+  #   button_link: "https://example.com"
+  #   rule_color: ''
+  # - title: Nam vestibulum
+  #   content: |
+  #     Nam vestibulum, purus quis porttitor imperdiet, nisl sem mollis nisl, a
+  #     interdum risus enim vitae tortor. Donec feugiat accumsan rutrum.
+  #   include: ''
+  #   button_label: Read more
+  #   button_link: "https://example.com"
+  #   rule_color: ''
 frontpage_goals_grid:
-  title: frontpage.heading_short
-  description: frontpage.instructions_shorter
+  title: Welcome to the Universities SDG Indicator Framework for the Sustainable Development Goals Data Hub
+  description: Select each goal access the data
 frontpage_introduction_banner:
-  title: frontpage.intro_title
-  description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+  title: 17 goals to transform our world
+  description: The Sustainable Development Goals (SDGs) are a universal call to action to end poverty, protect the planet and improve lives and prospects for everyone, everywhere. The University is an important actor for its achievement, not only in relation to SDG 4, but also as an Institution that is committed and trains new generations. The universities' SDG indicator frameworks cover all 17 goals and add ambitions and targets that have been developed by an interdisciplinary team under the USD project.
+goal_image_base: "https://open-sdg.org/sdg-translations/assets/img/goals"
 goal_image_extension: ''
 goals_page:
   title: general.goals
-  description: frontpage.instructions_shorter
-graph_color_headline: '#004466'
-graph_color_headline_high_contrast: '#55a6e5'
+  description: 
+graph_color_headline: "#004466"
+graph_color_headline_high_contrast: "#55a6e5"
 graph_color_set: accessible
 graph_color_list: []
 graph_color_number: 0
@@ -118,7 +118,7 @@ hide_single_series: true
 hide_single_unit: true
 ignored_disaggregations: []
 indicator_config_form:
-  enabled: true
+  enabled: false
   dropdowns: []
   repository_link: /tree/develop/indicator-config
   translation_link: ''
@@ -133,7 +133,6 @@ indicator_metadata_form:
   language: ''
   scopes:
     - national
-    - global
   exclude_fields: []
   translated: false
 indicator_tabs:
@@ -177,36 +176,32 @@ map_options:
     color: '#172d44'
     dashArray: '5,5'
 menu:
-  - path: /
-    translation_key: general.home
-    dropdown: []
   - path: /goals
     translation_key: general.goals
     dropdown: []
   - path: /reporting-status
     translation_key: menu.reporting_status
     dropdown: []
-  - path: /news
-    translation_key: menu.updates
-    dropdown: []
-  - path: /faq
-    translation_key: menu.faq
-    dropdown: []
   - path: /about
     translation_key: menu.about
     dropdown: []
+  # - path: /faq
+  #   translation_key: menu.faq
+  #   dropdown: []
+  # - path: /news
+  #   translation_key: menu.updates
+  #   dropdown: []
 metadata_edit_url: metadata
 metadata_tabs:
   - scope: national
     title: indicator.national_metadata
     description: indicator.national_metadata_blurb
-  - scope: global
-    title: indicator.global_metadata
-    description: indicator.global_metadata_blurb
-  - scope: sources
-    title: indicator.sources
-    description: ''
-meta_tags: []
+  # - scope: global
+  #   title: indicator.global_metadata
+  #   description: indicator.global_metadata_blurb
+  # - scope: sources
+  #   title: indicator.sources
+  #   description: ''
 news:
   category_links: false
 progress_status:
@@ -221,14 +216,14 @@ progressive_web_app:
 proxy_indicators:
   label: ''
   description: ''
-remote_data_prefix: 'https://josempl.github.io/data/'
+remote_data_prefix: 'http://localhost:8080/_site'
 reporting_status:
   title: status.reporting_status
   description: status.description
   disaggregation_tabs: false
   status_types:
     - value: notstarted
-      label: status.no_data_available
+      label: status.exploring_data_sources
       hide_on_goal_pages: false
     - value: complete
       label: status.reported_online

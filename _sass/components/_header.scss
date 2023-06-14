@@ -1,0 +1,108 @@
+//Logo image
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0;
+  img {
+    width: 300px;
+  }
+}
+
+
+//Menu nav-bar
+#menu {
+  margin: 0;
+}
+.d-flex{
+  background-color: #FFC726;
+  align-items: center;
+  padding: 5px 30px;
+}
+.no-js-language-toggle {
+  display: none;
+}
+.container-image {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  img {
+    height: 100px;
+    margin: 20px 0;
+  }
+}
+
+.navbar-nav {
+    margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color:black;
+  font-weight: 200;
+}
+.header-toggles {
+
+    a {
+      margin: 0 0 0 5px;
+    }
+  }
+
+.language-toggle-container {
+  margin: 0;
+
+}
+
+//Espacio entre elementos
+
+.navbar-toggler {
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+//Ocultar traducción
+
+.language-toggle-container {
+    display: none !important;
+    margin: 0;
+}
+
+//Media queries/
+
+//estilo segundo menu movil//
+
+@media only screen and (max-width: 991px) {
+  .navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    display: block;
+    display: inline-block;
+    background-color: #FFC726;
+    border: 1px solid grey;
+    align-items: center;
+  }
+}
+
+//Ocultar el segundo menú cuando la pantalla es de 991px o más//
+
+
+@media only screen and (min-width: 991px) {
+  #navbarSupportedContentMovi {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .navbar-collapse-second {
+    display: none;
+  }
+   .navbar-expand-lg .mobile-menu {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #navbarSupportedContentMovi {
+    display: none !important;
+  }
+}

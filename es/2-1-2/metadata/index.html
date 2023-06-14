@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230606094501">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230614074645">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -167,6 +167,7 @@ layout-config-builder
 ">
 <!-- <div class="container"> -->
 
+
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
@@ -174,7 +175,7 @@ layout-config-builder
     <h2 class="internet-explorer-message-title">Este navegador de Internet ya no es compatible</h2>
     <p class="internet-explorer-message-body">Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.</p>
 </div>
-<div id="disclaimer">
+<!-- <div id="disclaimer">
     
 <div class="container">
   <div class="disclaimer-alert">
@@ -185,35 +186,30 @@ layout-config-builder
   </div>
 </div>
 
-</div>
+</div> -->
 
 <header role="banner" class="">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
+    <div class="">
+        <nav class="navbar-expand-lg navbar-light flex-wrap align-items-start">
+            <a class="logo" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
     <img src="/site/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
+            
+            <div class=" d-flex justify-content-between">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMovi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/es/">Inicio</a>
-</li><li class="nav-item ">
     <a class="nav-link" href="/site/es/goals">Objetivos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/es/reporting-status">Estado de informes</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/es/news">Actualizaciones</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/es/faq">FAQ</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/es/about">Acerca de</a>
 </li></ul>
     
                 </div>
-                <div class="header-search-bar">
+                <div class="search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/es/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Buscar</label>
@@ -265,6 +261,16 @@ data-event-label="high"
 >A</a>
                 </div>
             </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
+                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <a class="nav-link" href="/site/es/goals">Objetivos</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site/es/reporting-status">Estado de informes</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site/es/about">Acerca de</a>
+</li></ul>
+    
+                </div>
         </nav>
     </div>
 </header>
@@ -354,7 +360,7 @@ data-event-label="high"
 
     
     
-    var schema = {"type":"object","title":"Edit Metadata","properties":{"SDG_INDICATOR__GLOBAL":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: global, Field: SDG_INDICATOR__GLOBAL"},"SDG_TARGET__GLOBAL":{"type":"string","format":"markdown","title":"Target","description":"Scope: global, Field: SDG_TARGET__GLOBAL"},"META_LAST_UPDATE__GLOBAL":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: global, Field: META_LAST_UPDATE__GLOBAL"},"SDG_CUSTODIAN_AGENCIES__GLOBAL":{"type":"string","format":"markdown","title":"International organisations(s) responsible for global monitoring","description":"Scope: global, Field: SDG_CUSTODIAN_AGENCIES__GLOBAL"},"SDG_RELATED_INDICATORS__GLOBAL":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: global, Field: SDG_RELATED_INDICATORS__GLOBAL"},"SDG_INDICATOR_INFO":{"type":"string","format":"markdown","title":"Indicator information","description":"Scope: national, Field: SDG_INDICATOR_INFO"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Goal","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: national, Field: SDG_INDICATOR"},"SDG_SERIES_DESCR":{"type":"string","format":"markdown","title":"Series","description":"Scope: national, Field: SDG_SERIES_DESCR"},"META_LAST_UPDATE":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: national, Field: META_LAST_UPDATE"},"SDG_RELATED_INDICATORS":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: national, Field: SDG_RELATED_INDICATORS"},"CONTACT":{"type":"string","format":"markdown","title":"Data reporter","description":"Scope: national, Field: CONTACT"},"CONTACT_ORGANISATION":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: national, Field: CONTACT_ORGANISATION"},"CONTACT_NAME":{"type":"string","format":"markdown","title":"Contact person(s)","description":"Scope: national, Field: CONTACT_NAME"},"ORGANISATION_UNIT":{"type":"string","format":"markdown","title":"Contact organisation unit","description":"Scope: national, Field: ORGANISATION_UNIT"},"CONTACT_FUNCT":{"type":"string","format":"markdown","title":"Contact person function","description":"Scope: national, Field: CONTACT_FUNCT"},"CONTACT_PHONE":{"type":"string","format":"markdown","title":"Contact phone","description":"Scope: national, Field: CONTACT_PHONE"},"CONTACT_MAIL":{"type":"string","format":"markdown","title":"Contact mail","description":"Scope: national, Field: CONTACT_MAIL"},"CONTACT_EMAIL":{"type":"string","format":"markdown","title":"Contact email","description":"Scope: national, Field: CONTACT_EMAIL"},"IND_DEF_CON_CLASS":{"type":"string","format":"markdown","title":"Definition, concepts, and classifications","description":"Scope: national, Field: IND_DEF_CON_CLASS"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Definition and concepts","description":"Scope: national, Field: STAT_CONC_DEF"},"UNIT_MEASURE":{"type":"string","format":"markdown","title":"Unit of measure","description":"Scope: national, Field: UNIT_MEASURE"},"CLASS_SYSTEM":{"type":"string","format":"markdown","title":"Classifications","description":"Scope: national, Field: CLASS_SYSTEM"},"SRC_TYPE_COLL_METHOD":{"type":"string","format":"markdown","title":"Data source type and collection method","description":"Scope: national, Field: SRC_TYPE_COLL_METHOD"},"SOURCE_TYPE":{"type":"string","format":"markdown","title":"Data sources","description":"Scope: national, Field: SOURCE_TYPE"},"COLL_METHOD":{"type":"string","format":"markdown","title":"Data collection method","description":"Scope: national, Field: COLL_METHOD"},"FREQ_COLL":{"type":"string","format":"markdown","title":"Data collection calendar","description":"Scope: national, Field: FREQ_COLL"},"REL_CAL_POLICY":{"type":"string","format":"markdown","title":"Data release calendar","description":"Scope: national, Field: REL_CAL_POLICY"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Data providers","description":"Scope: national, Field: DATA_SOURCE"},"COMPILING_ORG":{"type":"string","format":"markdown","title":"Data compilers","description":"Scope: national, Field: COMPILING_ORG"},"INST_MANDATE":{"type":"string","format":"markdown","title":"Institutional mandate","description":"Scope: national, Field: INST_MANDATE"},"OTHER_METHOD":{"type":"string","format":"markdown","title":"Other methodological considerations","description":"Scope: national, Field: OTHER_METHOD"},"RATIONALE":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: RATIONALE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Comment and limitations","description":"Scope: national, Field: REC_USE_LIM"},"DATA_COMP":{"type":"string","format":"markdown","title":"Method of computation","description":"Scope: national, Field: DATA_COMP"},"DATA_VALIDATION":{"type":"string","format":"markdown","title":"Validation","description":"Scope: national, Field: DATA_VALIDATION"},"DOC_METHOD":{"type":"string","format":"markdown","title":"Methods and guidance available to countries for the compilation of the data at the national level","description":"Scope: national, Field: DOC_METHOD"},"QUALITY_MGMNT":{"type":"string","format":"markdown","title":"Quality management","description":"Scope: national, Field: QUALITY_MGMNT"},"QUALITY_ASSURE":{"type":"string","format":"markdown","title":"Quality assurance","description":"Scope: national, Field: QUALITY_ASSURE"},"QUALITY_ASSMNT":{"type":"string","format":"markdown","title":"Quality assessment","description":"Scope: national, Field: QUALITY_ASSMNT"},"COVERAGE":{"type":"string","format":"markdown","title":"Data availability and disaggregation","description":"Scope: national, Field: COVERAGE"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Comparability/deviation from international standards","description":"Scope: national, Field: COMPARABILITY"},"OTHER_DOC":{"type":"string","format":"markdown","title":"References and Documentation","description":"Scope: national, Field: OTHER_DOC"},"national_data_updated_date":{"type":"string","format":"markdown","title":"Data last updated","description":"Scope: national, Field: national_data_updated_date"},"national_metadata_updated_date":{"type":"string","format":"markdown","title":"Metadata last updated","description":"Scope: national, Field: national_metadata_updated_date"},"un_designated_tier":{"type":"string","format":"markdown","title":"UN designated tier","description":"Scope: global, Field: un_designated_tier"}},"additionalProperties":true};
+    var schema = {"type":"object","title":"Edit Metadata","properties":{"SDG_INDICATOR_INFO":{"type":"string","format":"markdown","title":"Indicator information","description":"Scope: national, Field: SDG_INDICATOR_INFO"},"SDG_GOAL":{"type":"string","format":"markdown","title":"Goal","description":"Scope: national, Field: SDG_GOAL"},"SDG_TARGET":{"type":"string","format":"markdown","title":"Target","description":"Scope: national, Field: SDG_TARGET"},"SDG_INDICATOR":{"type":"string","format":"markdown","title":"Indicator","description":"Scope: national, Field: SDG_INDICATOR"},"SDG_SERIES_DESCR":{"type":"string","format":"markdown","title":"Series","description":"Scope: national, Field: SDG_SERIES_DESCR"},"META_LAST_UPDATE":{"type":"string","format":"markdown","title":"Metadata update","description":"Scope: national, Field: META_LAST_UPDATE"},"SDG_RELATED_INDICATORS":{"type":"string","format":"markdown","title":"Related indicators","description":"Scope: national, Field: SDG_RELATED_INDICATORS"},"CONTACT":{"type":"string","format":"markdown","title":"Data reporter","description":"Scope: national, Field: CONTACT"},"CONTACT_ORGANISATION":{"type":"string","format":"markdown","title":"Organisation","description":"Scope: national, Field: CONTACT_ORGANISATION"},"CONTACT_NAME":{"type":"string","format":"markdown","title":"Contact person(s)","description":"Scope: national, Field: CONTACT_NAME"},"ORGANISATION_UNIT":{"type":"string","format":"markdown","title":"Contact organisation unit","description":"Scope: national, Field: ORGANISATION_UNIT"},"CONTACT_FUNCT":{"type":"string","format":"markdown","title":"Contact person function","description":"Scope: national, Field: CONTACT_FUNCT"},"CONTACT_PHONE":{"type":"string","format":"markdown","title":"Contact phone","description":"Scope: national, Field: CONTACT_PHONE"},"CONTACT_MAIL":{"type":"string","format":"markdown","title":"Contact mail","description":"Scope: national, Field: CONTACT_MAIL"},"CONTACT_EMAIL":{"type":"string","format":"markdown","title":"Contact email","description":"Scope: national, Field: CONTACT_EMAIL"},"IND_DEF_CON_CLASS":{"type":"string","format":"markdown","title":"Definition, concepts, and classifications","description":"Scope: national, Field: IND_DEF_CON_CLASS"},"STAT_CONC_DEF":{"type":"string","format":"markdown","title":"Definition and concepts","description":"Scope: national, Field: STAT_CONC_DEF"},"UNIT_MEASURE":{"type":"string","format":"markdown","title":"Unit of measure","description":"Scope: national, Field: UNIT_MEASURE"},"CLASS_SYSTEM":{"type":"string","format":"markdown","title":"Classifications","description":"Scope: national, Field: CLASS_SYSTEM"},"SRC_TYPE_COLL_METHOD":{"type":"string","format":"markdown","title":"Data source type and collection method","description":"Scope: national, Field: SRC_TYPE_COLL_METHOD"},"SOURCE_TYPE":{"type":"string","format":"markdown","title":"Data sources","description":"Scope: national, Field: SOURCE_TYPE"},"COLL_METHOD":{"type":"string","format":"markdown","title":"Data collection method","description":"Scope: national, Field: COLL_METHOD"},"FREQ_COLL":{"type":"string","format":"markdown","title":"Data collection calendar","description":"Scope: national, Field: FREQ_COLL"},"REL_CAL_POLICY":{"type":"string","format":"markdown","title":"Data release calendar","description":"Scope: national, Field: REL_CAL_POLICY"},"DATA_SOURCE":{"type":"string","format":"markdown","title":"Data providers","description":"Scope: national, Field: DATA_SOURCE"},"COMPILING_ORG":{"type":"string","format":"markdown","title":"Data compilers","description":"Scope: national, Field: COMPILING_ORG"},"INST_MANDATE":{"type":"string","format":"markdown","title":"Institutional mandate","description":"Scope: national, Field: INST_MANDATE"},"OTHER_METHOD":{"type":"string","format":"markdown","title":"Other methodological considerations","description":"Scope: national, Field: OTHER_METHOD"},"RATIONALE":{"type":"string","format":"markdown","title":"Rationale","description":"Scope: national, Field: RATIONALE"},"REC_USE_LIM":{"type":"string","format":"markdown","title":"Comment and limitations","description":"Scope: national, Field: REC_USE_LIM"},"DATA_COMP":{"type":"string","format":"markdown","title":"Method of computation","description":"Scope: national, Field: DATA_COMP"},"DATA_VALIDATION":{"type":"string","format":"markdown","title":"Validation","description":"Scope: national, Field: DATA_VALIDATION"},"DOC_METHOD":{"type":"string","format":"markdown","title":"Methods and guidance available to countries for the compilation of the data at the national level","description":"Scope: national, Field: DOC_METHOD"},"QUALITY_MGMNT":{"type":"string","format":"markdown","title":"Quality management","description":"Scope: national, Field: QUALITY_MGMNT"},"QUALITY_ASSURE":{"type":"string","format":"markdown","title":"Quality assurance","description":"Scope: national, Field: QUALITY_ASSURE"},"QUALITY_ASSMNT":{"type":"string","format":"markdown","title":"Quality assessment","description":"Scope: national, Field: QUALITY_ASSMNT"},"COVERAGE":{"type":"string","format":"markdown","title":"Data availability and disaggregation","description":"Scope: national, Field: COVERAGE"},"COMPARABILITY":{"type":"string","format":"markdown","title":"Comparability/deviation from international standards","description":"Scope: national, Field: COMPARABILITY"},"OTHER_DOC":{"type":"string","format":"markdown","title":"References and Documentation","description":"Scope: national, Field: OTHER_DOC"},"national_data_updated_date":{"type":"string","format":"markdown","title":"Data last updated","description":"Scope: national, Field: national_data_updated_date"},"national_metadata_updated_date":{"type":"string","format":"markdown","title":"Metadata last updated","description":"Scope: national, Field: national_metadata_updated_date"}},"additionalProperties":true};
     
       
         
@@ -495,22 +501,36 @@ data-event-label="high"
     }
 
     // Set values according to this site's configuration.
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.META_LAST_UPDATE__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_CUSTODIAN_AGENCIES__GLOBAL'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_RELATED_INDICATORS__GLOBAL'));
-
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR_INFO'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_GOAL'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_TARGET', "Goal 2.1\tEnsure access for all people to healthy, nutritious and sufficient food");
+        var propertyEditor = editor.getEditor('root.SDG_TARGET');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_TARGET');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_TARGET'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('SDG_INDICATOR', "2.1.2\tPercentage of cafeterias on campus that offer a menu with local and seasonal products and also have fair trade products over the total number of said establishments.");
+        var propertyEditor = editor.getEditor('root.SDG_INDICATOR');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: SDG_INDICATOR');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_INDICATOR'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.SDG_SERIES_DESCR'));
@@ -525,6 +545,18 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_NAME'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('ORGANISATION_UNIT', "UPO");
+        var propertyEditor = editor.getEditor('root.ORGANISATION_UNIT');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: ORGANISATION_UNIT');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.ORGANISATION_UNIT'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.CONTACT_FUNCT'));
@@ -537,6 +569,18 @@ data-event-label="high"
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.IND_DEF_CON_CLASS'));
 
+    
+      try {
+        var currentValue = normalizeCurrentValue('STAT_CONC_DEF', "#### Indicator type:\n\ninstitutional policy\n\n#### Linked Area of Action:\n\nSustainable and responsible recruitment\n\n#### Risk Measurement:\n\n--\n");
+        var propertyEditor = editor.getEditor('root.STAT_CONC_DEF');
+        propertyEditor.setValue(null);
+        propertyEditor.setValue(currentValue);
+        
+      }
+      catch (e) {
+        console.log(e.message);
+        console.log('Unable to set config key: STAT_CONC_DEF');
+      }
     propertyEditorAccessibilityFixes(editor.getEditor('root.STAT_CONC_DEF'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.UNIT_MEASURE'));
@@ -586,8 +630,6 @@ data-event-label="high"
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_data_updated_date'));
 
     propertyEditorAccessibilityFixes(editor.getEditor('root.national_metadata_updated_date'));
-
-    propertyEditorAccessibilityFixes(editor.getEditor('root.un_designated_tier'));
 
     
 
@@ -658,48 +700,21 @@ data-event-label="high"
     });
   </script>
 </div>
-<footer role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="footerLinks">
-                    <ul>
-                        <li>
-                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/site/es/contact-us">Contáctenos</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
-                            <a href="/site/es/about/cookies-and-privacy/">Galletas</a>
-                            
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/site/es/config">Configuration</a>
-                        </li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</footer>
+<footer class="footer container">
+    <div class="usd-logo"><img src="/assets/img/usd_logo.png"  alt="USD logo" class="uv-logo" /></div></div>
+    <div class="eu-logo"><img src="/assets/img/eu_logo.png"  alt="EU co-funded logo" class="uv-logo" /></div></div>
+    <p class="footer-text">In collaboration with</p>
+    <div class="logos-container">
+  <img src="/assets/img/viko_logo.png" alt="Viko logo" class="uv-logo" />
+  <img src="/assets/img/savonia_logo.png"  alt="Savonia logo" class="uv-logo" />
+  <img
+  src="/assets/img/upo_logo.png" 
+    alt="UPO Logo"
+    class="uv-logo"
+  />
+  <img src="/assets/img/openods_logo.png"  alt="Open ODS logo" class="uv-logo" /></div>
 
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -726,12 +741,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230606094501'></script>
+<script src='/site/assets/js/sdg.js?v=20230614074645'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230606094501"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230614074645"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

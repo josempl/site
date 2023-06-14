@@ -6,108 +6,20 @@
       "indicators": [
         
         {
-          "id": "1-1-1",
-          "title": "Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-1-1/",
-          "status": "complete"
-        },
-        {
-          "id": "1-2-1",
-          "title": "Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-2-1/",
-          "status": "notapplicable"
-        },
-        {
-          "id": "1-2-2",
-          "title": "Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-2-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-3-1",
-          "title": "Proporción de la población cubierta por sistemas o niveles mínimos de protección social, desglosada por sexo, distinguiendo entre los niños, los desempleados, los ancianos, las personas con discapacidad, las mujeres embarazadas, los recién nacidos, las víctimas de accidentes de trabajo, los pobres y los vulnerables",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-3-1/",
-          "status": "notstarted"
-        },
-        {
           "id": "1-4-1",
           "title": "Proporción de la población que vive en hogares con acceso a los servicios básicos",
           "description": "",
           "keywords": "",
           "href": "/site/es/1-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "1-4-2",
-          "title": "Proporción del total de la población adulta con derechos seguros de tenencia de la tierra: a) que posee documentación reconocida legalmente al respecto y b) considera seguros sus derechos, desglosada por sexo y tipo de tenencia",
+          "title": "Percentage (%) UPO annual budget dedicated to scholarships and social assistance for low-income students with respect to the total annual UPO budget",
           "description": "",
           "keywords": "",
           "href": "/site/es/1-4-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-1",
-          "title": "Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-2",
-          "title": "Pérdidas económicas directas atribuidas a los desastres en relación con el producto interno bruto (PIB) mundial",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-5-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-3",
-          "title": "Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-5-3/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-5-4",
-          "title": "Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-5-4/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-1",
-          "title": "Total de las subvenciones de asistencia oficial para el desarrollo de todos los donantes que se centran en la reducción de la pobreza como porcentaje del ingreso nacional bruto del país receptor",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-a-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-a-2",
-          "title": "Proporción del gasto público total que se dedica a servicios esenciales (educación, salud y protección social)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-a-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "1-b-1",
-          "title": "Gasto público social en favor de los pobres",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/1-b-1/",
-          "status": "notstarted"
+          "status": "notapplicable"
         }]
     }
   },
@@ -119,7 +31,7 @@
         
         {
           "id": "2-1-1",
-          "title": "Prevalencia de la subalimentación",
+          "title": "Annual quantity (Kg) of food collected in the UPO food collection program",
           "description": "",
           "keywords": "",
           "href": "/site/es/2-1-1/",
@@ -127,106 +39,10 @@
         },
         {
           "id": "2-1-2",
-          "title": "Prevalencia de la inseguridad alimentaria moderada o grave entre la población, según la escala de experiencia de inseguridad alimentaria",
+          "title": "Percentage of cafeterias on campus that offer a menu with local and seasonal products and also have fair trade products over the total number of said establishments.",
           "description": "",
           "keywords": "",
           "href": "/site/es/2-1-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-1",
-          "title": "Prevalencia del retraso del crecimiento (estatura para la edad, desviación típica < -2 de la mediana de los patrones de crecimiento infantil de la Organización Mundial de la Salud (OMS)) entre los niños menores de 5 años",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-2",
-          "title": "Prevalencia de la malnutrición (peso para la estatura, desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación y sobrepeso)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-2-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-2-3",
-          "title": "Prevalencia de la anemia en las mujeres de entre 15 y 49 años, desglosada por embarazo (porcentaje)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-2-3/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-1",
-          "title": "Volumen de producción por unidad de trabajo desglosado por tamaño y tipo de explotación (agropecuaria/ganadera/forestal)",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-3-2",
-          "title": "Media de ingresos de los productores de alimentos en pequeña escala, desglosada por sexo y condición indígena",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-3-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-4-1",
-          "title": "Proporción de la superficie agrícola en que se practica una agricultura productiva y sostenible",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-4-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-1",
-          "title": "Número de recursos genéticos vegetales y animales para la alimentación y la agricultura preservados en instalaciones de conservación a medio y largo plazo",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-5-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-5-2",
-          "title": "Proporción de razas y variedades locales consideradas en riesgo de extinción",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-5-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-1",
-          "title": "Índice de orientación agrícola para el gasto público",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-a-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-a-2",
-          "title": "Total de corrientes oficiales de recursos (asistencia oficial para el desarrollo más otras corrientes oficiales) destinado al sector agrícola",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-a-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-b-1",
-          "title": "Subsidios a la exportación de productos agropecuarios",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-b-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "2-c-1",
-          "title": "Indicador de anomalías en los precios de los alimentos",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/2-c-1/",
           "status": "notstarted"
         }]
     }
@@ -238,80 +54,8 @@
       "indicators": [
         
         {
-          "id": "3-1-1",
-          "title": "Tasa de mortalidad materna",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-1-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-1-2",
-          "title": "Proporción de partos atendidos por personal sanitario especializado",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-1-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-2-1",
-          "title": "Tasa de mortalidad de niños menores de 5 años",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-2-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-2-2",
-          "title": "Tasa de mortalidad neonatal",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-2-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-1",
-          "title": "Número de nuevas infecciones por el VIH por cada 1.000 habitantes no infectados, desglosado por sexo, edad y poblaciones clave",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-3-1/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-2",
-          "title": "Incidencia de la tuberculosis por cada 100.000 habitantes",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-3-2/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-3",
-          "title": "Incidencia de la malaria por cada 1.000 habitantes",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-3-3/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-4",
-          "title": "Incidencia de la hepatitis B por cada 100.000 habitantes",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-3-4/",
-          "status": "notstarted"
-        },
-        {
-          "id": "3-3-5",
-          "title": "Número de personas que requieren intervenciones contra enfermedades tropicales desatendidas",
-          "description": "",
-          "keywords": "",
-          "href": "/site/es/3-3-5/",
-          "status": "notstarted"
-        },
-        {
           "id": "3-4-1",
-          "title": "Tasa de mortalidad atribuida a las enfermedades cardiovasculares, el cáncer, la diabetes o las enfermedades respiratorias crónicas",
+          "title": "Number and Percentage (%) of people from the university community assisted in health and well-being services/programs (psychological and medical care, vaccination...)",
           "description": "",
           "keywords": "",
           "href": "/site/es/3-4-1/",
@@ -319,146 +63,754 @@
         },
         {
           "id": "3-4-2",
-          "title": "Tasa de mortalidad por suicidio",
+          "title": "Percentage (%) UPO annual budget allocated to the area of ​​Health and Prevention of Occupational Risks",
           "description": "",
           "keywords": "",
           "href": "/site/es/3-4-2/",
           "status": "notstarted"
-        },
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "4",
+      "title": "Garantizar una educación inclusiva y equitativa de calidad y promover oportunidades de aprendizaje permanente para todos",
+      "indicators": [
+        
         {
-          "id": "3-5-1",
-          "title": "Cobertura de los tratamientos(farmacológicos y psicosociales y servicios de rehabilitación y postratamiento) de trastornos por abuso de sustancias adictivas",
+          "id": "4-3-1",
+          "title": "Number of students enrolled.",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-5-1/",
+          "href": "/site/es/4-3-1/",
           "status": "notstarted"
         },
         {
-          "id": "3-5-2",
-          "title": "Consumo de alcohol per cápita (a partir de los 15 años de edad) durante un año civil en litros de alcohol puro",
+          "id": "4-3-2",
+          "title": "No. of new students",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-5-2/",
+          "href": "/site/es/4-3-2/",
           "status": "notstarted"
         },
         {
-          "id": "3-6-1",
-          "title": "Tasa de mortalidad por lesiones debidas a accidentes de tráfico",
+          "id": "4-3-3",
+          "title": "Number of graduated students",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-6-1/",
+          "href": "/site/es/4-3-3/",
           "status": "notstarted"
         },
         {
-          "id": "3-7-1",
-          "title": "Proporción de mujeres en edad de procrear (entre 15 y 49 años) que cubren sus necesidades de planificación familiar con métodos modernos",
+          "id": "4-3-4",
+          "title": "Degree of satisfaction of the students with the (teaching) UPO",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-7-1/",
+          "href": "/site/es/4-3-4/",
           "status": "notstarted"
         },
         {
-          "id": "3-7-2",
-          "title": "Tasa de fecundidad de las adolescentes (entre 10 y 14 años y entre 15 y 19 años) por cada 1.000 mujeres de ese grupo de edad",
+          "id": "4-3-5",
+          "title": "Student rate over number of Full-time PDI",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-7-2/",
+          "href": "/site/es/4-3-5/",
           "status": "notstarted"
         },
         {
-          "id": "3-8-1",
-          "title": "Cobertura de los servicios de salud esenciales",
+          "id": "4-3-6",
+          "title": "Teaching Saturation Index (percentage of credits given with respect to the total possible)",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-8-1/",
+          "href": "/site/es/4-3-6/",
           "status": "notstarted"
         },
         {
-          "id": "3-8-2",
-          "title": "Proporción de la población con grandes gastos sanitarios por hogar como porcentaje del total de gastos o ingresos de los hogares",
+          "id": "4-3-7",
+          "title": "Proportion (%) of first generation students (first generation of university studies in the family",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-8-2/",
+          "href": "/site/es/4-3-7/",
           "status": "notstarted"
         },
         {
-          "id": "3-9-1",
-          "title": "Tasa de mortalidad atribuida a la contaminación de los hogares y del aire ambiente",
+          "id": "4-4-1",
+          "title": "Master's and Bachelor's Degree Academic Success Rate",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-9-1/",
+          "href": "/site/es/4-4-1/",
           "status": "notstarted"
         },
         {
-          "id": "3-9-2",
-          "title": "Tasa de mortalidad atribuida al agua insalubre, el saneamiento deficiente y la falta de higiene (exposición a servicios insalubres de agua, saneamiento e higiene para todos (WASH))",
+          "id": "4-5-1",
+          "title": "Percentage ofstudent body? / university community?what has beenbenefited? / participated?of the measures/initiatives put into practice from the UPO campus for attention to diversity.",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-9-2/",
+          "href": "/site/es/4-5-1/",
           "status": "notstarted"
         },
         {
-          "id": "3-9-3",
-          "title": "Tasa de mortalidad atribuida a intoxicaciones involuntarias",
+          "id": "4-5-2",
+          "title": "Number of people using the SADF service (annual)",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-9-3/",
+          "href": "/site/es/4-5-2/",
           "status": "notstarted"
         },
         {
-          "id": "3-a-1",
-          "title": "Prevalencia del consumo actual de tabaco a partir de los 15 años de edad (edades ajustadas)",
+          "id": "4-5-3",
+          "title": "Number of people with functional diversity enrolled",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-a-1/",
+          "href": "/site/es/4-5-3/",
           "status": "notstarted"
         },
         {
-          "id": "3-b-1",
-          "title": "Proporción de la población inmunizada con todas las vacunas incluidas en cada programa nacional",
+          "id": "4-5-4",
+          "title": "Number of people with functional diversity who complete their studies",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-b-1/",
+          "href": "/site/es/4-5-4/",
           "status": "notstarted"
         },
         {
-          "id": "3-b-2",
-          "title": "Total neto de asistencia oficial para el desarrollo destinado a los sectores de la investigación médica y la atención sanitaria básica",
+          "id": "4-5-5",
+          "title": "Percentage (%) of the university community that participates in training actions for attention to diversity",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-b-2/",
+          "href": "/site/es/4-5-5/",
           "status": "notstarted"
         },
         {
-          "id": "3-b-3",
-          "title": "Proporción de centros de salud que disponen de un conjunto básico de medicamentos esenciales asequibles de manera sostenible",
+          "id": "4-7-1",
+          "title": "Nº or Percentage (%) of the university population that participates in programs/activities that promote education for sustainable development",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-b-3/",
+          "href": "/site/es/4-7-1/",
           "status": "notstarted"
         },
         {
-          "id": "3-c-1",
-          "title": "Densidad y distribución del personal sanitario",
+          "id": "4-7-2",
+          "title": "Number of specific masters to promote sustainable development, through education for sustainable development and sustainable lifestyles, human rights, gender equality",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-c-1/",
+          "href": "/site/es/4-7-2/",
           "status": "notstarted"
         },
         {
-          "id": "3-d-1",
-          "title": "Capacidad prevista en el Reglamento Sanitario Internacional (RSI) y preparación para emergencias de salud",
+          "id": "4-a-1",
+          "title": "Percentage (%) of educational facilities that guarantee attention to diversity.",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-d-1/",
+          "href": "/site/es/4-a-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "5",
+      "title": "Lograr la igualdad de género y empoderar a todas las mujeres y las niñas",
+      "indicators": [
+        
+        {
+          "id": "5-1-1",
+          "title": "Percentage (%) of enrolled women out of total students",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-1/",
           "status": "notstarted"
         },
         {
-          "id": "3-d-2",
-          "title": "Porcentaje de infecciones del torrente sanguíneo debidas a determinados organismos resistentes a los antimicrobianos seleccionados",
+          "id": "5-1-2",
+          "title": "Percentage (%) of female new students out of all new students",
           "description": "",
           "keywords": "",
-          "href": "/site/es/3-d-2/",
+          "href": "/site/es/5-1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-3",
+          "title": "Percentage (%) of women participating in research and innovation projects",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-4",
+          "title": "Percentage (%) of PDI women out of the total PDI of the UPO",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-5",
+          "title": "Percentage (%) of PAS women out of the total PAS of the UPO",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-6",
+          "title": "Percentage (%) UPO annual budget allocated to the Equality area",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-6/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-1-7",
+          "title": "Number of people from the university community who participate in training and awareness-raising activities on equality",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-1-7/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-2-1",
+          "title": "Number of interventions in application of the protocol against sexual harassment and for reasons of sex in the UPO",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-4-1",
+          "title": "Number of people (PDI+PAS) ​​who take advantage of the reconciliation plans (including leave for care) of the UPO",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-1",
+          "title": "Percentage (%) of women members of collegiate bodies (Management Council/Government Council) and in management teams (Dean Teams, Faculties and Schools Management) with respect to the total number of members",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-2",
+          "title": "Percentage (%) of leading/principal researchers of research groups (UPO and competitive) out of total research groups",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "5-5-3",
+          "title": "Percentage of women professors with respect to the total number of professorships",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/5-5-3/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "6",
+      "title": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos",
+      "indicators": [
+        
+        {
+          "id": "6-4-1",
+          "title": "Average water consumption (litres) per person in the university community per year",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/6-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-2",
+          "title": "UPO water footprint",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/6-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-4-3",
+          "title": "Percentage of water reused",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/6-4-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "6-6-1",
+          "title": "Percentage (%) UPO annual budget allocated to the sustainable management of water and sanitation in university facilities and the care of aquatic ecosystems",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/6-6-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "7",
+      "title": "Garantizar el acceso a una energía asequible, fiable, sostenible y moderna para todos",
+      "indicators": [
+        
+        {
+          "id": "7-2-1",
+          "title": "Percentage (%) of energy consumed that comes from renewable sources with respect to total consumption.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/7-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-3-1",
+          "title": "Percentage (%) of RITE buildings/facilities with an A, B or C energy efficiency certificate.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/7-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-3-2",
+          "title": "Energy consumption per enrolled student and staff (PAS/PDI/contractors) (kWh per person per year)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/7-3-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "8",
+      "title": "Promover el crecimiento económico sostenido, inclusivo y sostenible, el empleo pleno y productivo y el trabajo decente para todos",
+      "indicators": [
+        
+        {
+          "id": "8-5-1",
+          "title": "Number or Percentage (%) of students with internships managed by the UPO (curricular and extracurricular)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-2",
+          "title": "Percentage (%) of students assisted by the professional/employment guidance service (service provided by the university)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-3",
+          "title": "Employment rate of graduate students after one year.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-5-4",
+          "title": "Percentage of UPO staff with a permanent contract.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-5-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-1",
+          "title": "Accident and incident rate per capita for the entire university community",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-8-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "8-8-2",
+          "title": "Number of people participating in training actions related to occupational safety and occupational risk prevention.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/8-8-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "9",
+      "title": "Construir infraestructuras resilientes, promover la industrialización inclusiva y sostenible y fomentar la innovación",
+      "indicators": [
+        
+        {
+          "id": "9-5-1",
+          "title": "Percentage (%) of the UPO's annual budget dedicated to research and development (R&D)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-2",
+          "title": "Percentage of Income from R&D with external funds over the total budget of the university allocated to R&D",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-3",
+          "title": "Percentage of public income for R&D over the total budget of the university allocated to R&D",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-4",
+          "title": "Percentage of private income for R&D over the university budget allocated to R&D",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-5",
+          "title": "Number of patents or exploitation licenses linked to research carried out at the UPO",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "9-5-6",
+          "title": "Number of spinoffs created.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/9-5-6/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "10",
+      "title": "Reducir la desigualdad en los países y entre ellos",
+      "indicators": [
+        
+        {
+          "id": "10-2-1",
+          "title": "Percentage (%) of UPO staff with functional diversity",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-2",
+          "title": "Percentage (%) students with functional diversity",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-3",
+          "title": "Percentage (%) of university facilities and services certified in universal accessibility.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-4",
+          "title": "Number of older people participating in the 'Aula Abierta de Mayores' program",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-5",
+          "title": "Number of agreements with entities that work in vulnerable areas of the city.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-2-6",
+          "title": "Nº or Percentage (%) of the university population that participates in volunteer activities (UPO Volunteer Office)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-2-6/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-16-1",
+          "title": "Percentage of cases resolved with respect to those reported to the university ombudsman",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/10-16-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "11",
+      "title": "Lograr que las ciudades y los asentamientos humanos sean inclusivos, seguros, resilientes y sostenibles",
+      "indicators": [
+        
+        {
+          "id": "11-2-1",
+          "title": "People / Percentage (%)? of the university community who usually travel using sustainable transport (on foot, bicycle and public transport).",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/11-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-2",
+          "title": "Percentage (%) of parking spaces for bicycles out of total number of members of the university community",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/11-2-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-1",
+          "title": "Percentage (%) occupancy of the Flora Tristán residence",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/11-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-3-2",
+          "title": "People who participate in the 'Shared Accommodation' program",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/11-3-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-7-1",
+          "title": "Percentage of surface area of ​​university campuses occupied by green areas and gardens.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/11-7-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "12",
+      "title": "Garantizar modalidades de consumo y producción sostenibles",
+      "indicators": [
+        
+        {
+          "id": "12-3-1",
+          "title": "Kg/year/person of food discarded at the UPO facilities by the university community.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-1",
+          "title": "Kg/year per capita of Hazardous Waste generated in UPO laboratories and workshops",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-4-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-2",
+          "title": "Tons of Electrical and Electronic Waste generated per year per capita on campus",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-3",
+          "title": "Tons of plastic waste generated per year per capita on the UPO campus",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-4-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-4",
+          "title": "Kilograms of used paper per capita recovered in selective bins on the UPO campus",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-4-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-4-5",
+          "title": "Kilograms of glass used per capita recovered in selective bins on the UPO campus",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-4-5/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-7-1",
+          "title": "Percentage of tenders in which ethical, social and environmental clauses have been included (beyond the law).",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/12-7-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "13",
+      "title": "Adoptar medidas urgentes para combatir el cambio climático y sus efectos",
+      "indicators": [
+        
+        {
+          "id": "13-2-1",
+          "title": "Carbon footprint. Direct and indirect emissions. Scope 1, 2 and 3.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/13-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-3-1",
+          "title": "Number of investigations on climate change.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/13-3-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "14",
+      "title": "Conservar y utilizar sosteniblemente los océanos, los mares y los recursos marinos para el desarrollo sostenible",
+      "indicators": [
+        
+        {
+          "id": "14-2-1",
+          "title": "Number of R+D+i and transfer projects/programs focused on the conservation of oceans, seas, lakes, rivers and marine resources",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/14-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "14-2-2",
+          "title": "Academic/training offer in aquatic ecosystems from a perspective of conservation and sustainable use of its resources",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/14-2-2/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "15",
+      "title": "Proteger, restablecer y promover el uso sostenible de los ecosistemas terrestres, gestionar sosteniblemente los bosques, luchar contra la desertificación, detener e invertir la degradación de las tierras y detener la pérdida de biodiversidad",
+      "indicators": [
+        
+        {
+          "id": "15-5-1",
+          "title": "Campus Biodiversity Index (existing and reintroduced)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/15-5-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-2",
+          "title": "Number of protected species present on campus (red list)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/15-5-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-3",
+          "title": "Number of invasive plant species removed from campus",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/15-5-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-4",
+          "title": "Academic/training offer in conservation and sustainable uses of terrestrial ecosystems",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/15-5-4/",
+          "status": "notstarted"
+        },
+        {
+          "id": "15-5-5",
+          "title": "R+D+i and transfer projects/programs focused on the conservation and management of soils and terrestrial ecosystems",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/15-5-5/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "16",
+      "title": "Promover sociedades pacíficas e inclusivas para el desarrollo sostenible, facilitar el acceso a la justicia para todos y construir a todos los niveles instituciones eficaces e inclusivas que rindan cuentas",
+      "indicators": [
+        
+        {
+          "id": "16-6-1",
+          "title": "UPO Transparency and Accountability Index",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/16-6-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "16-7-1",
+          "title": "Participation of the university community in decision-making.",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/16-7-1/",
+          "status": "notstarted"
+        }]
+    }
+  },
+  {
+    "goal": {
+      "id": "17",
+      "title": "Fortalecer los medios de implementación y revitalizar la Alianza Mundial para el Desarrollo Sostenible",
+      "indicators": [
+        
+        {
+          "id": "17-2-1",
+          "title": "Volume of euros (financing) obtained annually for development cooperation projects (compared to previous editions)",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/17-2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "17-6-1",
+          "title": "Percentage (%) of students / teachers who participate in development cooperation activities with respect to the university community",
+          "description": "",
+          "keywords": "",
+          "href": "/site/es/17-6-1/",
           "status": "notstarted"
         }]
     }

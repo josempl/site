@@ -143,7 +143,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230606094501">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230614074645">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -169,6 +169,7 @@ layout-goal
 ">
 <!-- <div class="container"> -->
 
+
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
@@ -176,7 +177,7 @@ layout-goal
     <h2 class="internet-explorer-message-title">Este navegador de Internet ya no es compatible</h2>
     <p class="internet-explorer-message-body">Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.</p>
 </div>
-<div id="disclaimer">
+<!-- <div id="disclaimer">
     
 <div class="container">
   <div class="disclaimer-alert">
@@ -187,35 +188,30 @@ layout-goal
   </div>
 </div>
 
-</div>
+</div> -->
 
 <header role="banner" class="">
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="navbar-brand" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
+    <div class="">
+        <nav class="navbar-expand-lg navbar-light flex-wrap align-items-start">
+            <a class="logo" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
     <img src="/site/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
+            
+            <div class=" d-flex justify-content-between">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMovi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="d-flex flex-wrap w-100 justify-content-between">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
-    <a class="nav-link" href="/site/es/">Inicio</a>
-</li><li class="nav-item ">
     <a class="nav-link" href="/site/es/goals">Objetivos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/es/reporting-status">Estado de informes</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/es/news">Actualizaciones</a>
-</li><li class="nav-item ">
-    <a class="nav-link" href="/site/es/faq">FAQ</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/es/about">Acerca de</a>
 </li></ul>
     
                 </div>
-                <div class="header-search-bar">
+                <div class="search-bar">
                     <form class="align-self-lg-end" id="search" action="/site/es/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Buscar</label>
@@ -267,6 +263,16 @@ data-event-label="high"
 >A</a>
                 </div>
             </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
+                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <a class="nav-link" href="/site/es/goals">Objetivos</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site/es/reporting-status">Estado de informes</a>
+</li><li class="nav-item ">
+    <a class="nav-link" href="/site/es/about">Acerca de</a>
+</li></ul>
+    
+                </div>
         </nav>
     </div>
 </header>
@@ -319,219 +325,18 @@ data-event-label="high"
 
 
 
-  <div class="container g-0 ">
+  <div class="container g-0 goal-showing-progress">
     <div class="row align-items-end">
       <div class="col">
         <h2 class="goal-page-heading">Metas e indicadores</h2>
       </div>
       
+      <div class="col-lg-2 d-none d-lg-block progress-column-header">
+        <span aria-hidden="true">¿Cómo vamos con respecto al objetivo del 2030?</span>
+      </div>
+      
     </div>
     <hr class="goal-page-column-header-rule">
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.1</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">De aquí a 2030, erradicar para todas las personas y en todo el mundo la pobreza extrema (actualmente se considera que sufren pobreza extrema las personas que viven con menos de 1,25 dólares de los Estados Unidos al día)</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.1.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-1-1/">Proporción de la población que vive por debajo del umbral internacional de pobreza, desglosada por sexo, edad, situación laboral y ubicación geográfica (urbana o rural)</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status complete">
-    <span class="status-inner">Informado en línea</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.2</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">De aquí a 2030, reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones con arreglo a las definiciones nacionales</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.2.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-2-1/">Proporción de la población que vive por debajo del umbral nacional de pobreza, desglosada por sexo y edad</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notapplicable">
-    <span class="status-inner">No aplicable</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.2.2</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-2-2/">Proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza, en todas sus dimensiones, con arreglo a las definiciones nacionales</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.3</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Implementar a nivel nacional sistemas y medidas apropiados de protección social para todos, incluidos niveles mínimos, y, de aquí a 2030, lograr una amplia cobertura de las personas pobres y vulnerables</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.3.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-3-1/">Proporción de la población cubierta por sistemas o niveles mínimos de protección social, desglosada por sexo, distinguiendo entre los niños, los desempleados, los ancianos, las personas con discapacidad, las mujeres embarazadas, los recién nacidos, las víctimas de accidentes de trabajo, los pobres y los vulnerables</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
     
       
       <div class="row align-items-start goal-target">
@@ -543,6 +348,8 @@ data-event-label="high"
           <div class="col goal-page-target-name">
             <span class="target-name">De aquí a 2030, garantizar que todos los hombres y mujeres, en particular los pobres y los vulnerables, tengan los mismos derechos a los recursos económicos y acceso a los servicios básicos, la propiedad y el control de la tierra y otros bienes, la herencia, los recursos naturales, las nuevas tecnologías apropiadas y los servicios financieros, incluida la microfinanciación</span>
           </div>
+          
+          <div class="col-lg-2 d-none d-lg-block"></div>
           
       </div>
         
@@ -573,12 +380,21 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
+<span class="status complete">
+    <span class="status-inner">Informado en línea</span>
 </span>
 
 
         </li></ul>
+
+
+            </div>
+            
+            <div class="col-lg-2 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
+    
+    
 
 
             </div>
@@ -601,7 +417,7 @@ data-event-label="high"
             </div>
             <div class="col goal-page-indicator-name">
               
-              <span class="indicator-name"><a href="/site/es/1-4-2/">Proporción del total de la población adulta con derechos seguros de tenencia de la tierra: a) que posee documentación reconocida legalmente al respecto y b) considera seguros sus derechos, desglosada por sexo y tipo de tenencia</a></span>
+              <span class="indicator-name"><a href="/site/es/1-4-2/">Percentage (%) UPO annual budget dedicated to scholarships and social assistance for low-income students with respect to the total annual UPO budget</a></span>
               
 
 
@@ -613,8 +429,8 @@ data-event-label="high"
 
 
 
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
+<span class="status notapplicable">
+    <span class="status-inner">No aplicable</span>
 </span>
 
 
@@ -623,327 +439,11 @@ data-event-label="high"
 
             </div>
             
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
+            <div class="col-lg-2 goal-page-indicator-progress">
+              <span class="visually-hidden"></span>
+              
     
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.5</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">De aquí a 2030, fomentar la resiliencia de los pobres y las personas que se encuentran en situaciones de vulnerabilidad y reducir su exposición y vulnerabilidad a los fenómenos extremos relacionados con el clima y otras perturbaciones y desastres económicos, sociales y ambientales</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.5.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-5-1/">Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100.000 habitantes</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.5.2</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-5-2/">Pérdidas económicas directas atribuidas a los desastres en relación con el producto interno bruto (PIB) mundial</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.5.3</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-5-3/">Número de países que adoptan y aplican estrategias nacionales de reducción del riesgo de desastres en consonancia con el Marco de Sendái para la Reducción del Riesgo de Desastres 2015‐2030</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.5.4</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-5-4/">Proporción de gobiernos locales que adoptan y aplican estrategias locales de reducción del riesgo de desastres en consonancia con las estrategias nacionales de reducción del riesgo de desastres</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
     
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.a</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Garantizar una movilización significativa de recursos procedentes de diversas fuentes, incluso mediante la mejora de la cooperación para el desarrollo, a fin de proporcionar medios suficientes y previsibles a los países en desarrollo, en particular los países menos adelantados, para que implementen programas y políticas encaminados a poner fin a la pobreza en todas sus dimensiones</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.a.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-a-1/">Total de las subvenciones de asistencia oficial para el desarrollo de todos los donantes que se centran en la reducción de la pobreza como porcentaje del ingreso nacional bruto del país receptor</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.a.2</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-a-2/">Proporción del gasto público total que se dedica a servicios esenciales (educación, salud y protección social)</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
-
-
-            </div>
-            
-            
-          </div>
-        
-        <hr class="goal-page-target-rule" />
-    
-      
-      <div class="row align-items-start goal-target">
-          <div class="col-auto goal-page-target-number">
-            <h3 class="goal-target">
-              <span class="target-number"><span class="visually-hidden">Meta</span> 1.b</span>
-            </h3>
-          </div>
-          <div class="col goal-page-target-name">
-            <span class="target-name">Crear marcos normativos sólidos en los planos nacional, regional e internacional, sobre la base de estrategias de desarrollo en favor de los pobres que tengan en cuenta las cuestiones de género, a fin de apoyar la inversión acelerada en medidas para erradicar la pobreza</span>
-          </div>
-          
-      </div>
-        
-
-          
-          
-          
-          
-
-          <div class="row align-items-start goal-indicator">
-          
-            <div class="col-auto goal-page-indicator-number">
-              <h4>
-                <span class="indicator-number"><span class="visually-hidden">Indicador</span> 1.b.1</span>
-              </h4>
-            </div>
-            <div class="col goal-page-indicator-name">
-              
-              <span class="indicator-name"><a href="/site/es/1-b-1/">Gasto público social en favor de los pobres</a></span>
-              
-
-
-
-
-    <ul class="tags list-unstyled list-inline" aria-label="Etiquetas"><li class="list-inline-item">
-        <span class="visually-hidden">Estado del indicador</span>
-        
-
-
-
-<span class="status notstarted">
-    <span class="status-inner">Datos no disponibles</span>
-</span>
-
-
-        </li></ul>
 
 
             </div>
@@ -954,52 +454,26 @@ data-event-label="high"
         <hr class="goal-page-target-rule" />
     
   </div>
-  <a href="#top">Volver arriba</a>
+  <a href="#top"><span class="backToTop"><svg class="app-c-back-to-top__icon2" xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 1 13 13" aria-hidden="true" focusable="false"><path fill="currentColor" d="M6.5 0L0 6.5 1.4 8l4-4v12.7h2V4l4.3 4L13 6.4z"></path></svg> Volver arriba</span></a>
+
 </div>
 
 
-<footer role="contentinfo">
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <div id="footerLinks">
-                    <ul>
-                        <li>
-                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
-                        </li>
-                        
-                        <li>
-                            <a href="/site/es/contact-us">Contáctenos</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://twitter.com/MyTwitterAccount" target="_blank">Twitter</a>
-                            
-                        </li>
-                        <li>
-                            
-                            <a href="https://facebook.com/MyFacebookAccount" target="_blank">Facebook</a>
-                            
-                        </li>
-                        <li>
-                            <a href="/site/es/about/cookies-and-privacy/">Galletas</a>
-                            
-                        </li>
-                        
-                        
-                        
-                        <li>
-                            <a href="/site/es/config">Configuration</a>
-                        </li>
-                        </ul>
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</footer>
+<footer class="footer container">
+    <div class="usd-logo"><img src="/assets/img/usd_logo.png"  alt="USD logo" class="uv-logo" /></div></div>
+    <div class="eu-logo"><img src="/assets/img/eu_logo.png"  alt="EU co-funded logo" class="uv-logo" /></div></div>
+    <p class="footer-text">In collaboration with</p>
+    <div class="logos-container">
+  <img src="/assets/img/viko_logo.png" alt="Viko logo" class="uv-logo" />
+  <img src="/assets/img/savonia_logo.png"  alt="Savonia logo" class="uv-logo" />
+  <img
+  src="/assets/img/upo_logo.png" 
+    alt="UPO Logo"
+    class="uv-logo"
+  />
+  <img src="/assets/img/openods_logo.png"  alt="Open ODS logo" class="uv-logo" /></div>
 
+</footer>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -1026,12 +500,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230606094501'></script>
+<script src='/site/assets/js/sdg.js?v=20230614074645'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230606094501"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230614074645"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
@@ -1039,3 +513,4 @@ data-event-label="high"
 
 </body>
 </html>
+

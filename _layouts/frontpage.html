@@ -24,6 +24,24 @@
     </div>
     {% endif %}
 
+    {% if site.frontpage_cards %}
+    <div class="frontpage-cards">
+    {% for card in site.frontpage_cards %}
+        {% assign remainder = forloop.index %}
+
+        {% if remainder == 1 or forloop.first %}
+        <div class="row">
+        {% endif %}
+
+        {% include components/card.html card=card %}
+
+        {% if remainder == 0 or forloop.last %}
+        </div>
+        {% endif %}
+
+    {% endfor %}
+    </div>
+    {% endif %}
 
 </div>
 {% include footer.html %}

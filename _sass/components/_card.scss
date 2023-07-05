@@ -1,0 +1,25 @@
+.card {
+    .card-title { 
+        margin-bottom: 1rem;
+    }
+}
+
+.logos-container {
+    background-color: transparent;
+    justify-content: space-around;
+    .uv-logo {
+        max-height: 160px;
+        padding-bottom: 20px !important;
+        object-fit: contain;
+    }
+    .social-icon {
+        height: 140px;
+        padding-bottom: 20px !important;
+        img {
+            height: 24px;
+            width: 24px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+}

@@ -1,4 +1,3 @@
-
 {% include multilingual-js.html key="header" %}
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">{{ page.t.header.skip_link }}</a>
 {% include components/header/internet-explorer-message.html %}
@@ -7,32 +6,35 @@
 </div> -->
 
 <header role="banner" class="">
-    <div class="">
-        <nav class="navbar-expand-lg navbar-light flex-wrap align-items-start">
-            {% include components/header/logo.html %}
-            
-            <div class=" d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMovi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    {% include components/header/logo.html %}
+    <div class="header-nav">
+        <div class="container">
+            <nav class="sticky navbar-expand-lg navbar-light flex-wrap align-items-start">
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                        aria-expanded="false" aria-label="{{ page.t.header.show_menu }}">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        {% include navigation.html dropdowns=true %}
+                    </div>
+                    <div class="search-bar">
+                        {% include search.html %}
+                    </div>
+                    <div class="header-toggles d-flex align-items-center">
+                        {%- if site.languages.size > 1 and site.header_language_toggle != 'none' -%}
+                        {% include components/language-toggle.html %}
+                        <span class="no-js-language-toggle">{% include components/language-toggle-links.html %}</span>
+                        {%- endif -%}
+                        {% include components/contrast-toggle.html %}
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
                     {% include navigation.html dropdowns=true %}
                 </div>
-                <div class="search-bar">
-                    {% include search.html %}
-                </div>
-                <div class="header-toggles d-flex">
-                    {%- if site.languages.size > 1 and site.header_language_toggle != 'none' -%}
-                    {% include components/language-toggle.html %}
-                    <span class="no-js-language-toggle">{% include components/language-toggle-links.html %}</span>
-                    {%- endif -%}
-                    {% include components/contrast-toggle.html %}
-                </div>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
-                    {% include navigation.html dropdowns=true %}
-                </div>
-        </nav>
+            </nav>
+        </div>
     </div>
 </header>
 {% include components/page-top.html %}

@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230614104449">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230710160313">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -167,7 +167,6 @@ layout-data-editor
 ">
 <!-- <div class="container"> -->
 
-
 <script>translations['header'] = {"alpha":"Alpha","default_contrast":"Default contrast","disable_high_contrast":"Disable high contrast","disclaimer":"This is a development website. We welcome your <a href=\"mailto:%email_contacts.suggestions\">feedback</a>.","enable_high_contrast":"Enable high contrast","hide_menu":"Hide navigation menu","high_contrast":"High contrast","internet_explorer_message":"We have detected that you are using Internet Explorer to visit this website. Internet Explorer is now being phased out by Microsoft. As a result, this website no longer supports any version of Internet Explorer. Some features on this site will not work. You should use a modern browser such as Edge, Chrome, Firefox, or Safari. If you have difficulty installing or accessing a different browser, please contact your IT support team.","internet_explorer_message_title":"This internet browser is no longer supported","logo_title":"Go to homepage","show_menu":"Show navigation menu","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
@@ -177,30 +176,23 @@ layout-data-editor
 </div>
 <!-- <div id="disclaimer">
     
-<div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">Alpha</strong>
-    
-    This is a development website. We welcome your <a href="mailto:test@example.com">feedback</a>.
-    
-  </div>
-</div>
-
 </div> -->
 
 <header role="banner" class="">
-    <div class="">
-        <nav class="navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="logo" href="/site/" id="home" aria-label="Go to homepage" title="Go to homepage">
+    <a class="logo" href="/site/" id="home" aria-label="Go to homepage" title="Go to homepage">
     <img src="/site/assets/img/SDG_logo.png" alt="Sustainable Development Goals - 17 Goals to Transform our World" />
 </a>
-            
-            <div class=" d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMovi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Show navigation menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <div class="header-nav">
+        <div class="container">
+            <nav class="sticky navbar-expand-lg navbar-light flex-wrap align-items-start">
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                        aria-expanded="false" aria-label="Show navigation menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav" id="menu"><li class="nav-item ">
     <a class="nav-link" href="/site/goals">Goals</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/reporting-status">Reporting Status</a>
@@ -208,9 +200,9 @@ layout-data-editor
     <a class="nav-link" href="/site/about">About</a>
 </li></ul>
     
-                </div>
-                <div class="search-bar">
-                    <form class="align-self-lg-end" id="search" action="/site/search/">
+                    </div>
+                    <div class="search-bar">
+                        <form class="align-self-lg-end" id="search" action="/site/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Search</label>
         <input class="form-control" type="search" name="q" id="indicator_search" title="Search">
@@ -222,8 +214,8 @@ layout-data-editor
     </div>
 </form>
 
-                </div>
-                <div class="header-toggles d-flex">
+                    </div>
+                    <div class="header-toggles d-flex align-items-center">
 
 
 
@@ -246,7 +238,7 @@ layout-data-editor
 
 
 
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+                        <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-es list-inline-item">
             <a class="language-toggle-link" href="/site/es/4-a-1/data/">
@@ -259,9 +251,9 @@ data-event-category="Accessibility"
 data-event-action="Change contrast setting"
 data-event-label="high"
 >A</a>
+                    </div>
                 </div>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
+                <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
     <a class="nav-link" href="/site/goals">Goals</a>
 </li><li class="nav-item ">
@@ -271,11 +263,11 @@ data-event-label="high"
 </li></ul>
     
                 </div>
-        </nav>
+            </nav>
+        </div>
     </div>
 </header>
 <div id="top" tabindex=-1></div>
-
 
 <div id="main-content" class="container" role="main">
   <div class="row no-gutters">
@@ -406,21 +398,38 @@ data-event-label="high"
   }
   </script>
 </div>
-<footer class="footer container">
-    <div class="usd-logo"><img src="/site/assets/img/usd_logo.png"  alt="USD logo" class="uv-logo" /></div></div>
-    <div class="eu-logo"><img src="/site/assets/img/eu_logo.png"  alt="EU co-funded logo" class="uv-logo" /></div></div>
-    <p class="footer-text">In collaboration with</p>
-    <div class="logos-container">
-  <img src="/site/assets/img/viko_logo.png" alt="Viko logo" class="uv-logo" />
-  <img src="/site/assets/img/savonia_logo.png"  alt="Savonia logo" class="uv-logo" />
-  <img
-  src="/site/assets/img/upo_logo.png" 
-    alt="UPO Logo"
-    class="uv-logo"
-  />
-  <img src="/site/assets/img/openods_logo.png"  alt="Open ODS logo" class="uv-logo" /></div>
-
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Built using Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/site/contact-us">Contact us</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/site/about/cookies-and-privacy/">Cookies</a>
+                            
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/site/config">Configuration</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -447,12 +456,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230614104449'></script>
+<script src='/site/assets/js/sdg.js?v=20230710160313'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230614104449"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230710160313"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>

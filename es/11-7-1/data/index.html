@@ -141,7 +141,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230614104449">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230710160313">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -167,7 +167,6 @@ layout-data-editor
 ">
 <!-- <div class="container"> -->
 
-
 <script>translations['header'] = {"alpha":"Alfa","default_contrast":"Contraste estándar","disable_high_contrast":"Desactivar alto contraste","disclaimer":"Este es un sitio web de desarrollo. Agradecemos sus <a href=\"mailto:%email_contacts.suggestions\">comentarios</a>.","enable_high_contrast":"Habilitar alto contraste","hide_menu":"Ocultar el menú de navegación","high_contrast":"Alto contraste","internet_explorer_message":"Hemos detectado que está utilizando Internet Explorer para visitar este sitio web. Internet Explorer ahora está siendo eliminado por Microsoft. Como resultado, este sitio web ya no es compatible con ninguna versión de Internet Explorer. Algunas características de este sitio no funcionarán. Debe usar un navegador moderno como Edge, Chrome, Firefox o Safari. Si tiene dificultades para instalar o acceder a un navegador diferente, comuníquese con su equipo de soporte de TI.","internet_explorer_message_title":"Este navegador de Internet ya no es compatible","logo_title":"Ir a la página de inicio","show_menu":"Mostrar el menú de navegación","skip_link":"Saltar al contenido principal","tag_line":"17 Objetivos para transformar nuestro mundo","toggle_menu":"Alternar menú. Haga clic para expandir o contraer el menú.","toggle_search":"Barra de búsqueda. Haga clic para ampliar o reducir la barra de búsqueda."};</script>
 
 <a class="sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Saltar al contenido principal</a>
@@ -177,30 +176,23 @@ layout-data-editor
 </div>
 <!-- <div id="disclaimer">
     
-<div class="container">
-  <div class="disclaimer-alert">
-    <strong class="phase-tag">Alfa</strong>
-    
-    Este es un sitio web de desarrollo. Agradecemos sus <a href="mailto:test@example.com">comentarios</a>.
-    
-  </div>
-</div>
-
 </div> -->
 
 <header role="banner" class="">
-    <div class="">
-        <nav class="navbar-expand-lg navbar-light flex-wrap align-items-start">
-            <a class="logo" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
+    <a class="logo" href="/site/es/" id="home" aria-label="Ir a la página de inicio" title="Ir a la página de inicio">
     <img src="/site/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
-            
-            <div class=" d-flex justify-content-between">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContentMovi" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Mostrar el menú de navegación">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav" id="menu"><li class="nav-item ">
+    <div class="header-nav">
+        <div class="container">
+            <nav class="sticky navbar-expand-lg navbar-light flex-wrap align-items-start">
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                        aria-expanded="false" aria-label="Mostrar el menú de navegación">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav" id="menu"><li class="nav-item ">
     <a class="nav-link" href="/site/es/goals">Objetivos</a>
 </li><li class="nav-item ">
     <a class="nav-link" href="/site/es/reporting-status">Estado de informes</a>
@@ -208,9 +200,9 @@ layout-data-editor
     <a class="nav-link" href="/site/es/about">Acerca de</a>
 </li></ul>
     
-                </div>
-                <div class="search-bar">
-                    <form class="align-self-lg-end" id="search" action="/site/es/search/">
+                    </div>
+                    <div class="search-bar">
+                        <form class="align-self-lg-end" id="search" action="/site/es/search/">
     <div class="input-group">
         <label class="visually-hidden" for="indicator_search">Buscar</label>
         <input class="form-control" type="search" name="q" id="indicator_search" title="Buscar">
@@ -222,8 +214,8 @@ layout-data-editor
     </div>
 </form>
 
-                </div>
-                <div class="header-toggles d-flex">
+                    </div>
+                    <div class="header-toggles d-flex align-items-center">
 
 
 
@@ -246,7 +238,7 @@ layout-data-editor
 
 
 
-                    <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
+                        <span class="no-js-language-toggle"><div class="language-toggle-container d-flex">
     <i class="fa fa-globe language-toggle-globe-links"></i>
     <ul class="language-toggle-links list-unstyled list-inline"><li class="language-option-en list-inline-item">
             <a class="language-toggle-link" href="/site/11-7-1/data/">
@@ -259,9 +251,9 @@ data-event-category="Accessibility"
 data-event-action="Change contrast setting"
 data-event-label="high"
 >A</a>
+                    </div>
                 </div>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
+                <div class="collapse navbar-collapse" id="navbarSupportedContentMovi">
                     <ul class="navbar-nav" id="menu"><li class="nav-item ">
     <a class="nav-link" href="/site/es/goals">Objetivos</a>
 </li><li class="nav-item ">
@@ -271,11 +263,11 @@ data-event-label="high"
 </li></ul>
     
                 </div>
-        </nav>
+            </nav>
+        </div>
     </div>
 </header>
 <div id="top" tabindex=-1></div>
-
 
 <div id="main-content" class="container" role="main">
   <div class="row no-gutters">
@@ -406,21 +398,38 @@ data-event-label="high"
   }
   </script>
 </div>
-<footer class="footer container">
-    <div class="usd-logo"><img src="/site/assets/img/usd_logo.png"  alt="USD logo" class="uv-logo" /></div></div>
-    <div class="eu-logo"><img src="/site/assets/img/eu_logo.png"  alt="EU co-funded logo" class="uv-logo" /></div></div>
-    <p class="footer-text">In collaboration with</p>
-    <div class="logos-container">
-  <img src="/site/assets/img/viko_logo.png" alt="Viko logo" class="uv-logo" />
-  <img src="/site/assets/img/savonia_logo.png"  alt="Savonia logo" class="uv-logo" />
-  <img
-  src="/site/assets/img/upo_logo.png" 
-    alt="UPO Logo"
-    class="uv-logo"
-  />
-  <img src="/site/assets/img/openods_logo.png"  alt="Open ODS logo" class="uv-logo" /></div>
-
+<footer role="contentinfo">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="footerLinks">
+                    <ul>
+                        <li>
+                            <a href="https://open-sdg.org">Construido usando Open SDG</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/site/es/contact-us">Contáctenos</a>
+                            
+                        </li>
+                        <li>
+                            <a href="/site/es/about/cookies-and-privacy/">Galletas</a>
+                            
+                        </li>
+                        
+                        
+                        
+                        <li>
+                            <a href="/site/es/config">Configuration</a>
+                        </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        
+    </div>
 </footer>
+
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
@@ -447,12 +456,12 @@ data-event-label="high"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230614104449'></script>
+<script src='/site/assets/js/sdg.js?v=20230710160313'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230614104449"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230710160313"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
